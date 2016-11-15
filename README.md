@@ -1,8 +1,10 @@
 # Swift + AudioKit :heart: MIDI
 
+[Wiki](https://github.com/uscradiogroup/swift-midi-audiokit/wiki)
+
 ## Getting Started
 
-The team prefers [Carthage](https://github.com/Carthage/Carthage) more than Cocoapods. You will need [Homebrew](http://brew.sh/) to install [Carthage](https://github.com/Carthage/Carthage).
+The team uses [Carthage](https://github.com/Carthage/Carthage) for package management. You can install [Carthage](https://github.com/Carthage/Carthage) through [Homebrew](http://brew.sh/).
 
 **Step 1** - Install Homebrew
 
@@ -44,6 +46,7 @@ carthage bootstrap --platform ios  --no-use-binaries
 # About USC Radio Labs
 
 USC Radio Labs is a department of [USC Radio Group](http://uscradiogroup.org) dedicated to producing new music products, services, and experiences for listeners, musicians, tastemakers and arts partners worldwide. The team develops websites, apps, API services, and new forms of interactive media that promote both music and story-driven listening. 
+
 
 
 ### What do we do? 
