@@ -1,0 +1,4 @@
+github "artemch/AudioKit" "436b48183fcfa7232ec697b688c4ce8530599686"
+github "MagicalPanda/MagicalRecord" "v2.3.3"
+github "antitypical/Result" "2.1.3"
+github "ReactiveCocoa/ReactiveCocoa" "v4.2.2"
