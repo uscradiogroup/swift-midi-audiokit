@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MDNavigationController" customModule="Moodles" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="MDBottomSlider" id="kFs-ED-Tqh" customClass="MDBottomSlider" customModule="Moodles" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="135"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lcu-CR-fFY">
+                    <rect key="frame" x="0.0" y="30" width="300" height="105"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SliderWheel" translatesAutoresizingMaskIntoConstraints="NO" id="jDu-32-VrC">
+                            <rect key="frame" x="0.0" y="0.0" width="300" height="105"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdc-uQ-iaN">
+                            <rect key="frame" x="194" y="41.5" width="60" height="60"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="Nf5-Jv-1Qh"/>
+                                <constraint firstAttribute="height" constant="60" id="aGv-QP-vEA"/>
+                            </constraints>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onMenuRight:" destination="-1" eventType="touchUpInside" id="y7d-6t-y9H"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Hy-N8-l4W">
+                            <rect key="frame" x="120" y="11" width="60" height="60"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="NJ6-i6-Mmq"/>
+                                <constraint firstAttribute="width" constant="60" id="vQi-PI-qpL"/>
+                            </constraints>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onMenuCenter:" destination="-1" eventType="touchUpInside" id="zuD-mY-0Fz"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2C-1p-udx">
+                            <rect key="frame" x="113" y="75" width="74" height="30"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="74" id="5m8-Z7-ehf"/>
+                                <constraint firstAttribute="height" constant="30" id="8Lz-71-vyy"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="6"/>
+                            <state key="normal" image="SliderHideArrow"/>
+                            <connections>
+                                <action selector="onHideSlider:" destination="-1" eventType="touchUpInside" id="8xm-0V-eFV"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vXe-4R-YCw">
+                            <rect key="frame" x="46" y="41.5" width="60" height="60"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="D1E-R7-7au"/>
+                                <constraint firstAttribute="height" constant="60" id="qiy-WP-zEy"/>
+                            </constraints>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onMenuLeft:" destination="-1" eventType="touchUpInside" id="QjQ-Xh-vqv"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstItem="vXe-4R-YCw" firstAttribute="centerY" secondItem="Lcu-CR-fFY" secondAttribute="centerY" constant="19" id="8Su-ez-jl5"/>
+                        <constraint firstAttribute="bottom" secondItem="jDu-32-VrC" secondAttribute="bottom" id="CGu-KV-JBR"/>
+                        <constraint firstAttribute="trailing" secondItem="jDu-32-VrC" secondAttribute="trailing" id="CH4-Yl-5Pn"/>
+                        <constraint firstItem="U2C-1p-udx" firstAttribute="centerX" secondItem="Lcu-CR-fFY" secondAttribute="centerX" id="GI2-gS-UcQ"/>
+                        <constraint firstItem="cdc-uQ-iaN" firstAttribute="centerY" secondItem="Lcu-CR-fFY" secondAttribute="centerY" constant="19" id="HlK-C9-vk0"/>
+                        <constraint firstItem="jDu-32-VrC" firstAttribute="leading" secondItem="Lcu-CR-fFY" secondAttribute="leading" id="IOS-EP-zER"/>
+                        <constraint firstAttribute="bottom" secondItem="U2C-1p-udx" secondAttribute="bottom" id="RM2-FG-kLb"/>
+                        <constraint firstItem="9Hy-N8-l4W" firstAttribute="centerX" secondItem="Lcu-CR-fFY" secondAttribute="centerX" id="Tsp-IC-UaN"/>
+                        <constraint firstAttribute="trailing" secondItem="cdc-uQ-iaN" secondAttribute="trailing" constant="46" id="UWL-kc-beK"/>
+                        <constraint firstItem="9Hy-N8-l4W" firstAttribute="top" secondItem="Lcu-CR-fFY" secondAttribute="top" constant="11" id="fAo-rW-HJp"/>
+                        <constraint firstItem="jDu-32-VrC" firstAttribute="top" secondItem="Lcu-CR-fFY" secondAttribute="top" id="hnW-am-i7t"/>
+                        <constraint firstItem="U2C-1p-udx" firstAttribute="centerX" secondItem="Lcu-CR-fFY" secondAttribute="centerX" id="mCk-g2-jj7"/>
+                        <constraint firstItem="vXe-4R-YCw" firstAttribute="leading" secondItem="Lcu-CR-fFY" secondAttribute="leading" constant="46" id="y1n-oU-HC8"/>
+                    </constraints>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="ipf-Hq-8cM" appends="YES" id="1Ph-Ye-2wu"/>
+                    </connections>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H7a-KH-nMj">
+                    <rect key="frame" x="130" y="0.0" width="40" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Tkc-9A-mrg"/>
+                        <constraint firstAttribute="width" constant="40" id="rnF-BM-PbP"/>
+                    </constraints>
+                    <state key="normal" image="SliderShortcut"/>
+                    <connections>
+                        <action selector="onTapSliderShorcut:" destination="-1" eventType="touchUpInside" id="YFI-BN-YZj"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="H7a-KH-nMj" firstAttribute="top" secondItem="kFs-ED-Tqh" secondAttribute="top" id="Nem-2l-Rha"/>
+                <constraint firstAttribute="trailing" secondItem="Lcu-CR-fFY" secondAttribute="trailing" id="RKb-FC-snc"/>
+                <constraint firstItem="Lcu-CR-fFY" firstAttribute="leading" secondItem="kFs-ED-Tqh" secondAttribute="leading" id="RVo-8c-MXZ"/>
+                <constraint firstItem="H7a-KH-nMj" firstAttribute="centerX" secondItem="kFs-ED-Tqh" secondAttribute="centerX" id="aax-RB-eXp"/>
+                <constraint firstAttribute="bottom" secondItem="Lcu-CR-fFY" secondAttribute="bottom" id="eoA-Qs-0KO"/>
+                <constraint firstItem="Lcu-CR-fFY" firstAttribute="top" secondItem="H7a-KH-nMj" secondAttribute="bottom" id="lCz-ye-wc3"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="buttonCenter" destination="9Hy-N8-l4W" id="9vj-ss-wth"/>
+                <outlet property="buttonHide" destination="U2C-1p-udx" id="uqM-5C-4i3"/>
+                <outlet property="buttonLeft" destination="vXe-4R-YCw" id="agW-Wh-PBd"/>
+                <outlet property="buttonRight" destination="cdc-uQ-iaN" id="YMp-o7-xyb"/>
+                <outlet property="constraintPanHeight" destination="Tkc-9A-mrg" id="ez7-ZY-wfV"/>
+                <outlet property="constraintPanWidth" destination="rnF-BM-PbP" id="UN7-ws-QT8"/>
+                <outlet property="imageViewWheel" destination="jDu-32-VrC" id="KsZ-wi-BlB"/>
+                <outlet property="viewSliderShortcut" destination="H7a-KH-nMj" id="E78-8p-qUo"/>
+            </connections>
+            <point key="canvasLocation" x="-432" y="101"/>
+        </view>
+        <swipeGestureRecognizer direction="down" id="ipf-Hq-8cM">
+            <connections>
+                <action selector="onSwipeSliderDown:" destination="-1" id="zCk-og-tUA"/>
+            </connections>
+        </swipeGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="SliderHideArrow" width="13" height="8"/>
+        <image name="SliderShortcut" width="24" height="12"/>
+        <image name="SliderWheel" width="300" height="105"/>
+    </resources>
+</document>

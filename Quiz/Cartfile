@@ -1,0 +1,9 @@
+github "audiokit/AudioKit" == 3.4.3
+github "MagicalPanda/MagicalRecord" == 2.3.3
+github "mxcl/PromiseKit" ~> 4.1.7
+github "mixpanel/mixpanel-swift"
+github "rs/SDWebImage" ~> 4.0.0
+github "bizz84/SwiftyStoreKit" ~> 0.7.1
+github "BranchMetrics/ios-branch-deep-linking"
+github "SnapKit/SnapKit" ~> 3.1.2
+github "facebook/facebook-sdk-swift"
