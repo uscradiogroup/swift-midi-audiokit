@@ -1,6 +1,16 @@
+|  | | | |  |  | | | | | |  |  | | | |  | 
+|  | | | |  |  | | | | | |  |  | | | |  | 
+|  | | | |  |  | | | | | |  |  | | | |  | 
+|  |_| |_|  |  |_| |_| |_|  |  |_| |_|  | 
+|   |   |   |   |   |   |   |   |   |   | 
+|   |   |   |   |   |   |   |   |   |   | 
+|___|___|___|___|___|___|___|___|___|___| 
+
+
 # Swift + AudioKit :heart: MIDI
 
-[Wiki](https://github.com/uscradiogroup/swift-midi-audiokit/wiki)
+
+[READ ME => Wiki](https://github.com/uscradiogroup/swift-midi-audiokit/wiki)
 
 ## Getting Started
 
