@@ -67,3 +67,11 @@ USC Radio Labs is a department of [USC Radio Group](http://uscradiogroup.org) de
 * We promote learning such as the art of listening, music history, and music theory.
 * We provide new platforms for dialog and discussion.
 
+```language-powerbash
+  _    _  _____  _____   _____           _ _         _           _         
+ | |  | |/ ____|/ ____| |  __ \         | (_)       | |         | |        
+ | |  | | (___ | |      | |__) |__ _  __| |_  ___   | |     __ _| |__  ___ 
+ | |  | |\___ \| |      |  _  // _` |/ _` | |/ _ \  | |    / _` | '_ \/ __|
+ | |__| |____) | |____  | | \ \ (_| | (_| | | (_) | | |___| (_| | |_) \__ \
+  \____/|_____/ \_____| |_|  \_\__,_|\__,_|_|\___/  |______\__,_|_.__/|___/
+```
